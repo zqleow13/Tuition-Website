@@ -2,8 +2,8 @@
  A full-stack website of a tuition agency that focuses on matching potential tutors to tutees. 
 
 Tools I'll be using:
- - For the front-end, I'll be using HTML, CSS and JS.
- - For the back-end, I'll use Vue.js as the JS framework and Tailwind CSS as the CSS framework. I'll be using Express.js and SQLite as well.
+ - For the front-end, I'll be using HTML, CSS and JS + Vue.js & Tailwind CSS as frameworks.
+ - For the back-end, I'll be using Express.js and SQLite.
  
  How the site works:
  1. Parents of such tutees can seek for the agency's help to search for potential tutors. 
