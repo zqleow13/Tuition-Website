@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "subject": "P3 English",
+        "location": "Bedok",
+        "rates-per-hour": "30"
+    },
+
+    {
+        "id": 2,
+        "subject": "P4 Chinese",
+        "location": "Tampines",
+        "rates-per-hour": "30"
+    },
+
+    {
+        "id": 3,
+        "subject": "P5 Maths",
+        "location": "Bishan",
+        "rates-per-hour": "40"
+    },
+
+    {
+        "id": 4,
+        "subject": "P6 Science",
+        "location": "Kallang",
+        "rates-per-hour": "40"
+    }
+]
