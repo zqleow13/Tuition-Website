@@ -1,47 +1,47 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+    <div class="logo">
+      <!-- Ideally put a logo -->
+      <h1>Victory Tuition</h1>
     </div>
-  </header>
 
-  <main>
-    <TheWelcome />
-  </main>
+    <div class="navbar">
+      <h4>Request A Tutor</h4>
+      <h4>Find Assignments</h4>
+      <h4>Testimonials</h4>
+    </div>
+
+    <div class="heroimage">
+      <img src="" alt="">
+    </div>
+
+    <div class="stats">
+
+    </div>
+
+    <div class="footer">
+      
+    </div>
+
+  </header>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
 .logo {
-  display: block;
-  margin: 0 auto 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
 }
 </style>
