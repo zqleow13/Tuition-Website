@@ -1,14 +1,15 @@
 <script setup>
     import assignments from "../data/assignments.json"
+    import { RouterLink } from "vue-router"
 </script>
 
 <template>
     <div>
         <h1>Assignments View</h1>
         <div class="assignments">
-            <a v-for="assignment in assignments" :key="assignment.id" href="">
+            <RouterLink  :to="`/findassignments/assignments/${assignment.id}`" v-for="assignment in assignments" :key="assignment.id" href="">
                 {{ assignment.ref }}
-            </a>
+            </RouterLink>
         </div>
     </div>
 </template>
