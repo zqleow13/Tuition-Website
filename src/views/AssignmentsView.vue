@@ -1,4 +1,4 @@
-<script>
+<script setup>
     import { RouterLink } from "vue-router"
     import assignments from "../data/assignments.json"
 </script>
