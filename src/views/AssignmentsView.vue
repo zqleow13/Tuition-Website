@@ -1,3 +1,21 @@
+<script setup>
+    import { RouterLink } from "vue-router"
+    import assignmentsData from "../data/assignments.json"
+    import { computed } from "vue"
+    import { ref } from "vue"
+
+    const search = ref('');
+    const assignments = ref(assignmentsData);
+
+    // To create the search function for the search bar
+    const searchedAssignments = computed(() => {
+        const searchQuery = search.value.toLowerCase();
+        return assignments.value.filter((assignment) => {
+            return assignment.subject.toLowerCase().includes(searchQuery) || assignment.location.toLowerCase().includes(searchQuery) || assignment.rates.includes(searchQuery);
+        });
+    });
+</script>
+
 <template>
     <div>
         <h1>Assignments View</h1>
@@ -11,21 +29,6 @@
         </div>
     </div>
 </template>
-
-<script setup>
-    import { RouterLink } from "vue-router"
-    import assignments from "../data/assignments.json"
-    import { computed } from "vue"
-    import { ref } from "vue"
-
-    const search = ref('')
-
-    const searchedAssignments = computed(() => {
-        return assignments.filter((assignment) => {
-            return assignment.subject.match(search)
-        })
-    })
-</script>
 
 <style scoped>
     .assignments {
