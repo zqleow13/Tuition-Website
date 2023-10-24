@@ -18,7 +18,7 @@
 
 <template>
     <div>
-        <h1>Assignments View</h1>
+        <h1>Latest Assignments</h1>
         <div class="assignments">
         <input type="text" placeholder="Search for assignments" v-model="search">
             <RouterLink :to="`/findassignments/assignments/${assignment.id}`" v-for="assignment in searchedAssignments" :key="assignment.id" href="">

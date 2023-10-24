@@ -40,6 +40,6 @@
 <style scoped>
     .active {
         font-weight: 900;
-        color: gold;
+        color: #F8B31A;
     }
 </style>
