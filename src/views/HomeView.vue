@@ -10,5 +10,19 @@
     </header>
 
     <!-- insert testimonials -->
-
+    <div id="testimonials" class="">
+        <h1 class="flex flex-col justify-center items-center text-2xl text-black font-bold py-10">Parents' Testimonials</h1>
+        <h3 class="flex flex-col justify-center items-center font-bold">"Very engaging and fun tutor!"</h3>
+        <p class="flex flex-col flex-wrap justify-center items-center">~ Mrs Lee, Parent of P3 Maths Student</p>
+        <h3 class="flex flex-col justify-center items-center font-bold">"Tutor was friendly and kind!"</h3>
+        <p class="flex flex-col justify-center items-center">~ Mr Goh, Parent of P5 Science Student</p>
+        <h3 class="flex flex-col justify-center items-center font-bold">"My son scored AL1 after just 6 months of tuition!"</h3>
+        <p class="flex flex-col justify-center items-center">~ Mr Suresh, Parent of P4 English Student</p>
+        <h3 class="flex flex-col justify-center items-center font-bold">"Victory Tuition found us a tutor within a few days. Highly recommend!"</h3>
+        <p class="flex flex-col justify-center items-center">~ Mdm Akmal, Parent of P2 English Student</p>
+        <h3 class="flex flex-col justify-center items-center font-bold">"Tuition helped my kid to score AL3 from AL6!"</h3>
+        <p class="flex flex-col justify-center items-center">~ Mrs Sim, Parent of P6 Maths Student</p>
+        <h3 class="flex flex-col justify-center items-center font-bold">"Tutor went the extra mile to make sure that my child understands the concepts!"</h3>
+        <p class="flex flex-col justify-center items-center">~ Mr Chan, Parent of P3 Chinese Student</p>
+    </div>
 </template>
