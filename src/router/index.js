@@ -3,6 +3,7 @@ import {createRouter, createWebHistory} from "vue-router"
 import HomeView from "../views/HomeView.vue"
 import AssignmentsView from "../views/AssignmentsView.vue"
 import AssignmentContentView from "../views/AssignmentContentView.vue"
+import ContactForm from "../views/ContactForm.vue"
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,7 +22,12 @@ const router = createRouter({
             path: "/findassignments/assignments/:id", // Put colon for a dynamic path
             name: "assignments",
             component: AssignmentContentView
-        }
+        },
+        {
+            path: "/contact-us",
+            name: "contact-us",
+            component: ContactForm
+        },
     ]
 })
 
